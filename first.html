@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <body style="background-color:lightblue;"></body>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1st page </title>
+    <link href="C:\nettantra\style.css" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<style type="text/css"></style>
+<html>
+<body>
+    <script type="text/javascript" src="form.js"></script>
+    <a href="2ndpage.html">click here to go 2nd page</a>
+    <div class="container"><br>
+        <h1 class ="text-succsess text-center ">Information Page</h1><br>
+       <div class ="col-lg-8 m-auto d-block">
+       <from action="# " onsubmit="return validation ();"  class="bg-light">
+
+         <div class="from-group">
+            <label class="required">Name</label>
+            <style>
+                .required:after {
+                  content:" *";
+                  color: red;
+                }
+              </style>
+            <br>
+            <input type="text"  placeholder="First" name="" size="42px">
+            <input type="text" placeholder="Last" name="" size="42px">
+            <span id="Name" class="text-danger"></span>
+         </div><br>
+          
+         <div class="from-group">
+            <label class="required">Date-Of-Birth</label><br>
+            <style>
+                .required:after {
+                  content:" *";
+                  color: red;
+                }
+              </style>
+                    <input type="date" placeholder="DD-MM-YYYY"   style="width: 705px;">
+              
+            <span id="Date-Of-Birth" class="text-danger"></span>
+         </div><br>
+
+         <div class="from-group">
+            <label class="required">E-mail</label><br>
+            <style>
+                .required:after {
+                  content:" *";
+                  color: red;
+                }
+              </style>
+            <input type="text"placeholder="email"  id="email"   style="width: 705px;">
+            <span id="E-mail" class="text-danger"></span>
+         </div><br>
+
+         <div class="from-group">
+            <label class="required">Father's Name</label><br>
+            <style>
+                .required:after {
+                  content:" *";
+                  color: red;
+                }
+              </style>
+            <tr>
+                <td>
+                    <input type="text" placeholder="first" name="" size="42px">
+                    <input type="text" placeholder="last" name="" size="42px">
+                </td>
+            </tr>
+            <span id="Father's Name" class="text-danger"></span>
+         </div><br>
+         <div class="from-group">
+            <label class="required">Mother's Name</label><br>
+            <style>
+                .required:after {
+                  content:" *";
+                  color: red;
+                }
+              </style>
+            <tr>
+                <td>
+                    <input type="text" placeholder="first" name="" size="42px">
+                    <input type="text" placeholder="last" name="" size="42px">
+                </td>
+            </tr>
+            <span id="mother's Name" class="text-danger"></span>
+         </div><br>
+
+         <div class="from-group">
+            <label class="required">Gender</label><br>
+            <style>
+                .required:after {
+                  content:" *";
+                  color: red;
+                }
+              </style>
+            <tr>
+                <td>
+                    <input type="radio" name="gender"> M
+                    <br>
+                    <input type="radio"  name="gender"> F
+                </td>
+            </tr>
+            <span id="Gender" class="text-danger"></span>
+         </div><br>
+         <div class="from-group">
+            <label class="required">Nationality</label><br>
+            <style>
+                .required:after {
+                  content:" *";
+                  color: red;
+                }
+              </style>
+            <input type="text" placeholder="city" id="nation name"style="width: 705px;">
+            <span id="Nationality" class="text-danger"></span>
+         </div><br>
+
+         <div class="from-group">
+            <label class="required">Home Address</label><br>
+            <style>
+                .required:after {
+                  content:" *";
+                  color: red;
+                }
+              </style>
+            <input type="text" placeholder="street address" id=" address"style="width: 705px;">
+         </div><br>
+
+         <div class="from-group">
+            
+            <label>City</label><br>
+            <tr>
+                <td>
+            <input type="text" placeholder="city" class="form-control" id="city"style="width: 705px;"><br>
+                 Country
+                </td>
+            </tr>
+            <tr>
+                <td>
+                   
+                    <select>
+
+                      <option value="India">India</option>
+                      <option value="Bangladesh">Bangladesh</option>
+                      <option value="Belgium">Belgium</option>
+                      <option value="China">China</option>
+                      <option value="Brazil">Brazil</option>
+                      <option value="Australia">Australia</option>
+                      <option value="Canada">Canada</option>
+
+                    </select>
+
+                </td>
+            </tr>
+         </div><br>
+         <div class="from-group">
+            <label>telephone-Home</label><br>
+            <input type="number" placeholder="##########" class="form-control" id=" number"style="width: 705px;">
+         </div><br>
+         <div class="from-group">
+            <label class="required">Telephone-Mobile</label><br>
+            <style>
+                .required:after {
+                  content:" *";
+                  color: red;
+                }
+              </style>
+            <input type="Number"placeholder="##########" class="form-control" id="Number"style="width: 705px;">
+            <span id="Telephone-Mobile" class="text-danger"></span>
+         </div><br>
+
+         <div class="from-group">
+            <label>submit</label><br>
+            <input type="Submit" name="Submit" value= " submit" class="btn btn-success" autocomplete="off">
+         </div><br>
+       </from>
+       </div>
+    </div>
+    
+        </form>
+        <script type="text/javascript">
+         
+            function validation(){
+               var Name = document.getElementById('Name').value;
+               var DOB= document.getElementById('Date-Of-Birth').value;
+               var Email = document.getElementById('E-mail').value;
+               var fatherName = document.getElementById('fathername').value;
+               var gender = document.getElementById('Gender').value;
+               var Nationality = document.getElementById('Nationality').value;
+               var mobile = document.getElementById('Telephone Mobile').value;
+        
+               if(Name==""){
+                   document.getElementById('Name').innerHTML="*";
+               }
+               return false;
+               }
+               if((name.length<=2)||(name.length >20)){
+                   document.getElementById('Name').innerHTML="** name legth must be between 2 and 20";
+               }
+                   return false
+               if(!isnot(user)){
+                   document.getElementById('Name').innerHTML="** only character allawed";
+               }
+                   return false
+               if(DOB==""){
+                   document.getElementById('Date-Of-Birth').innerHTML="*";
+               }
+               return false;
+           
+            if(email==""){
+                   document.getElementById('E-mail').innerHTML="*";
+               }
+               return false;
+            
+            if(fatherName==""){
+                   document.getElementById('fatherName').innerHTML="*";
+               }
+               return false;
+           
+            if(gender==""){
+                   document.getElementById('gender').innerHTML="*";
+            }
+        if(Nationality==""){
+                   document.getElementById('Nationality').innerHTML="*";
+               }
+               return false;
+            if(mobile=="")
+            {
+                   document.getElementById('Telephone mobile').innerHTML="*";
+               }
+               return false;
+               if(isNaN(mobilenumber)){
+                   document.getElementById('mobilenumber').innerHTML="* only give digit number not charecters";
+               }
+               return false;
+               if(mobilenumber.length!=10){
+                   document.getElementById('mobilenumber').innerHTML="*  give 10 digit number ";
+               }
+               return false;
+           </script>
+</body>
+</html>
